@@ -21,6 +21,7 @@ function rollDie() {
 function takeTurn () {
   if (theBox.length === 0) {
   alert("You shut the dang box!!!");
+  break;
   }; 
   if (theBox.length === 1 && theBox[0] === 1) {
     confirm ("Roll the dice! You're only rolling ONE die now!");
